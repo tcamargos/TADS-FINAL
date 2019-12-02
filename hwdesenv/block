@@ -1,0 +1,6 @@
+create database blockchain;
+----------------------------------------
+create table atestados(id int auto_increment primary key not null, hash varchar(255), previoushash varchar(255),timestamp date,  nonce varchar(255), nome varchar(255), cpf varchar(255), crm varchar(255), cid varchar(255), dias varchar(255));
+----------------------------------------
+INSERT INTO atestados(hash, previoushash,timestamp,nonce,nome,cpf,crm,cid,dias)
+                  values ("4321", "1234", "2019-09-01", "2505", "genesis", "genesis", "genesis", "genesis", "genesis");
